@@ -153,3 +153,8 @@ digivax_runner/
   mcp_tools.py   reference-DB lookups (copied from DIGIVAX vaccination_db/)
   ref_vaccines.db
 ```
+
+## Authors
+
+Pipeline, fine-tuning and this runner: [Tim Stainer (@timSta0301)](https://github.com/timSta0301).
+Published by the [ankilab](https://github.com/ankilab) group.
