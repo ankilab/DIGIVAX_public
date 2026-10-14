@@ -1,0 +1,14 @@
+# Pinned to the DIGIVAX environment the adapter was trained and evaluated with.
+# torch / torchvision are installed first by install.sh from the CUDA 13.0 index:
+#   torch==2.11.0 torchvision==0.26.0  --index-url https://download.pytorch.org/whl/cu130
+transformers==5.5.0
+peft==0.19.1
+accelerate==1.13.0
+safetensors==0.8.0
+tokenizers==0.22.2
+huggingface_hub==1.17.0
+pillow==12.2.0
+numpy==2.4.6
+# fast kernels for Qwen3.5's linear-attention layers (24 of 32 layers)
+flash-linear-attention==0.5.0
+fla-core==0.5.0
